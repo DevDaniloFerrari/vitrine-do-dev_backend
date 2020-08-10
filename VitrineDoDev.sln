@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VitrineDoDev.Tests", "Vitri
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VitrineDoDev.Infra", "VitrineDoDev.Infra\VitrineDoDev.Infra.csproj", "{E2C63E96-8147-4335-9BB2-CF3BFF02CB55}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VitrineDoDev.Shared", "VitrineDoDev.Shared\VitrineDoDev.Shared.csproj", "{A9F43F7A-2B21-426E-9D42-EA93588CB9B6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -72,5 +74,17 @@ Global
 		{E2C63E96-8147-4335-9BB2-CF3BFF02CB55}.Release|x64.Build.0 = Release|Any CPU
 		{E2C63E96-8147-4335-9BB2-CF3BFF02CB55}.Release|x86.ActiveCfg = Release|Any CPU
 		{E2C63E96-8147-4335-9BB2-CF3BFF02CB55}.Release|x86.Build.0 = Release|Any CPU
+		{A9F43F7A-2B21-426E-9D42-EA93588CB9B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9F43F7A-2B21-426E-9D42-EA93588CB9B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9F43F7A-2B21-426E-9D42-EA93588CB9B6}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{A9F43F7A-2B21-426E-9D42-EA93588CB9B6}.Debug|x64.Build.0 = Debug|Any CPU
+		{A9F43F7A-2B21-426E-9D42-EA93588CB9B6}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{A9F43F7A-2B21-426E-9D42-EA93588CB9B6}.Debug|x86.Build.0 = Debug|Any CPU
+		{A9F43F7A-2B21-426E-9D42-EA93588CB9B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9F43F7A-2B21-426E-9D42-EA93588CB9B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9F43F7A-2B21-426E-9D42-EA93588CB9B6}.Release|x64.ActiveCfg = Release|Any CPU
+		{A9F43F7A-2B21-426E-9D42-EA93588CB9B6}.Release|x64.Build.0 = Release|Any CPU
+		{A9F43F7A-2B21-426E-9D42-EA93588CB9B6}.Release|x86.ActiveCfg = Release|Any CPU
+		{A9F43F7A-2B21-426E-9D42-EA93588CB9B6}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

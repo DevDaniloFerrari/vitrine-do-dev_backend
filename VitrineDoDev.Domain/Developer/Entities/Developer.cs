@@ -1,13 +1,10 @@
 ﻿using System.Collections.Generic;
+using VitrineDoDev.Shared.Entities;
 
-namespace VitrineDoDev.Domain.Entities
+namespace VitrineDoDev.Domain.Developer.Entities
 {
-    public class Developer : User
+    public class Developer : Entity
     {
-        public Developer()
-        {
-        }
-
 
         public string Description { get; private set; }
         public string ActualPosition { get; private set; }

@@ -1,6 +1,9 @@
-﻿namespace VitrineDoDev.Domain.Entities
+﻿
+using VitrineDoDev.Shared.Entities;
+
+namespace VitrineDoDev.Domain.Developer.Entities
 {
-    public class SocialMedia
+    public class SocialMedia : Entity
     {
 
 
