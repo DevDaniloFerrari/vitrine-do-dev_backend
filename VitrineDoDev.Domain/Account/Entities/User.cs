@@ -5,11 +5,14 @@ namespace VitrineDoDev.Domain.Account.Entities
 {
     public class User : Entity
     {
-        public User(string name, string email, string cellPhone, Password password)
+        public User() { }
+        
+
+        public User(string name, Email email, CellPhone cellPhone, Password password)
         {
             Name = name;
-            Email = email;
-            CellPhone = cellPhone;
+            Email = email.Address;
+            CellPhone = cellPhone.Number;
             PasswordHash = password.PasswordHash;
             PasswordSalt = password.PasswordSalt;
         }
@@ -20,6 +23,6 @@ namespace VitrineDoDev.Domain.Account.Entities
         public byte[] PasswordHash { get; private set; }
         public byte[] PasswordSalt { get; private set; }
 
-        
+
     }
 }

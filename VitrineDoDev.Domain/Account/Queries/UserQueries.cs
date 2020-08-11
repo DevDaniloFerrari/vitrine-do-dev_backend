@@ -11,7 +11,5 @@ namespace VitrineDoDev.Domain.Account.Queries
             return x => x.Email == email;
         }
 
-
-
     }
 }
