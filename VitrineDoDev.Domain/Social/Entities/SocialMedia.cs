@@ -1,4 +1,5 @@
-﻿using VitrineDoDev.Shared.Entities;
+﻿using VitrineDoDev.Domain.Developer.Entities;
+using VitrineDoDev.Shared.Entities;
 
 namespace VitrineDoDev.Domain.Social.Entities
 {
@@ -15,5 +16,6 @@ namespace VitrineDoDev.Domain.Social.Entities
         public string GitHub { get; private set; }
         public string Linkedln { get; private set; }
         public string Portfólio { get; private set; }
+        public Programmer Programmer { get; private set; }
     }
 }

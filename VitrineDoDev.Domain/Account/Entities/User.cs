@@ -1,4 +1,5 @@
 ﻿using VitrineDoDev.Domain.Account.ValueObjects;
+using VitrineDoDev.Domain.Developer.Entities;
 using VitrineDoDev.Shared.Entities;
 
 namespace VitrineDoDev.Domain.Account.Entities
@@ -21,6 +22,7 @@ namespace VitrineDoDev.Domain.Account.Entities
         public string CellPhone { get; private set; }
         public byte[] PasswordHash { get; private set; }
         public byte[] PasswordSalt { get; private set; }
+        public Programmer Programmer { get; private set; }
 
 
         public void AddCelPhone(string cellPhone)

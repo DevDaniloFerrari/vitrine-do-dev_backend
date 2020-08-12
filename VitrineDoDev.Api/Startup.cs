@@ -15,6 +15,9 @@ using VitrineDoDev.Api.Utils;
 using VitrineDoDev.Domain.Account.Handlers;
 using VitrineDoDev.Domain.Account.Repositories;
 using VitrineDoDev.Domain.Account.Services;
+using VitrineDoDev.Domain.Developer.Repositories;
+using VitrineDoDev.Domain.Social.Repositories;
+using VitrineDoDev.Domain.Technologies.Repositories;
 using VitrineDoDev.Infra.Contexts;
 using VitrineDoDev.Infra.Repositories;
 
@@ -64,8 +67,14 @@ namespace VitrineDoDev.Api
             services.AddDbContext<DataContext>(opt => opt.UseInMemoryDatabase("Database"));
 
             // Injection Dependency
-            services.AddScoped<IUserRepository, UserRepository>();
+            // -- Handlers --
             services.AddScoped<UserHandler, UserHandler>();
+            // -- Repositories --
+            services.AddScoped<IUserRepository, UserRepository>();
+            services.AddScoped<IProgrammerRepository, ProgrammerRepository>();
+            services.AddScoped<ITechnologyRepository, TechnologyRepository>();
+            services.AddScoped<ISocialMediaRepository, SocialMediaRepository>();
+            // -- Services -- 
             services.AddScoped<ITokenService, TokenService>();
 
             // JWT
