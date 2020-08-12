@@ -1,4 +1,5 @@
-﻿using VitrineDoDev.Domain.Account.Entities;
+﻿using System;
+using VitrineDoDev.Domain.Account.Entities;
 
 namespace VitrineDoDev.Domain.Account.Repositories
 {
@@ -7,5 +8,7 @@ namespace VitrineDoDev.Domain.Account.Repositories
         User Authenticate(string email);
         void Register(User user);
         bool EmailExists(string email);
+        User GetById(Guid id);
+        void Update(User user);
     }
 }

@@ -11,5 +11,10 @@ namespace VitrineDoDev.Domain.Account.Queries
             return x => x.Email == email;
         }
 
+        public static Expression<Func<User, bool>> GetById(Guid id)
+        {
+            return x => x.Id == id;
+        }
+
     }
 }

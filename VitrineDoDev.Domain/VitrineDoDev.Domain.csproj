@@ -12,9 +12,4 @@
     <ProjectReference Include="..\VitrineDoDev.Shared\VitrineDoDev.Shared.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Developer\Handlers\" />
-    <Folder Include="Developer\Queries\" />
-  </ItemGroup>
-
 </Project>

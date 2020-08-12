@@ -25,9 +25,9 @@ namespace VitrineDoDev.Domain.Account.Entities
         public Programmer Programmer { get; private set; }
 
 
-        public void AddCelPhone(string cellPhone)
+        public void AddCelPhone(CellPhone cellPhone)
         {
-            CellPhone = cellPhone;
+            CellPhone = cellPhone.Number;
         }
 
     }

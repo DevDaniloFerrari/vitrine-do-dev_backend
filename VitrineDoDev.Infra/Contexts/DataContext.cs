@@ -46,7 +46,7 @@ namespace VitrineDoDev.Infra.Contexts
             modelBuilder.Entity<SocialMedia>().HasKey(x => x.Id);
             modelBuilder.Entity<SocialMedia>().Property(x => x.GitHub).HasMaxLength(50).HasColumnType("varchar(50)");
             modelBuilder.Entity<SocialMedia>().Property(x => x.Linkedln).HasMaxLength(50).HasColumnType("varchar(50)");
-            modelBuilder.Entity<SocialMedia>().Property(x => x.Portfólio).HasMaxLength(50).HasColumnType("varchar(50)");
+            modelBuilder.Entity<SocialMedia>().Property(x => x.Portfolio).HasMaxLength(50).HasColumnType("varchar(50)");
             modelBuilder.Entity<SocialMedia>().HasOne(x => x.Programmer).WithOne(x => x.SocialMedia).HasForeignKey<Programmer>(x => x.Id);
 
 

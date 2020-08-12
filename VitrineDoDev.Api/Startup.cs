@@ -15,6 +15,7 @@ using VitrineDoDev.Api.Utils;
 using VitrineDoDev.Domain.Account.Handlers;
 using VitrineDoDev.Domain.Account.Repositories;
 using VitrineDoDev.Domain.Account.Services;
+using VitrineDoDev.Domain.Developer.Handlers;
 using VitrineDoDev.Domain.Developer.Repositories;
 using VitrineDoDev.Domain.Social.Repositories;
 using VitrineDoDev.Domain.Technologies.Repositories;
@@ -69,6 +70,7 @@ namespace VitrineDoDev.Api
             // Injection Dependency
             // -- Handlers --
             services.AddScoped<UserHandler, UserHandler>();
+            services.AddScoped<ProgrammerHandler, ProgrammerHandler>();
             // -- Repositories --
             services.AddScoped<IUserRepository, UserRepository>();
             services.AddScoped<IProgrammerRepository, ProgrammerRepository>();
