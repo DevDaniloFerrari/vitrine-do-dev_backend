@@ -35,10 +35,9 @@ namespace VitrineDoDev.Domain.Account.Handlers
             // Gerar o VO's
             var password = new Password(command.Password);
             var email = new Email(command.Email);
-            var cellPhone = new CellPhone(command.CellPhone);
 
             // Agrupar validações
-            AddNotifications(password, email, cellPhone);
+            AddNotifications(password, email);
 
             // Checar notificações
             if (Invalid)
@@ -48,7 +47,7 @@ namespace VitrineDoDev.Domain.Account.Handlers
             password.CreatePasswordHash(command.Password);
 
             // Gerar a entidade
-            var user = new User(command.Name, email, cellPhone, password);
+            var user = new User(command.Name, email, password);
 
             // Salvar no banco
             _userRepository.Register(user);

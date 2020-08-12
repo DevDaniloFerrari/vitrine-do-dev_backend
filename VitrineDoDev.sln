@@ -1,17 +1,17 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26124.0
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30320.27
 MinimumVisualStudioVersion = 15.0.26124.0
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VitrineDoDev.Domain", "VitrineDoDev.Domain\VitrineDoDev.Domain.csproj", "{C72A2019-529D-435C-A126-89E50B597F9F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VitrineDoDev.Domain", "VitrineDoDev.Domain\VitrineDoDev.Domain.csproj", "{C72A2019-529D-435C-A126-89E50B597F9F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VitrineDoDev.Api", "VitrineDoDev.Api\VitrineDoDev.Api.csproj", "{4578BAE7-0560-427D-AC3D-3466911BBC64}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VitrineDoDev.Api", "VitrineDoDev.Api\VitrineDoDev.Api.csproj", "{4578BAE7-0560-427D-AC3D-3466911BBC64}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VitrineDoDev.Tests", "VitrineDoDev.Tests\VitrineDoDev.Tests.csproj", "{49BC77D5-0B25-44D3-8769-0A660A7A8142}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VitrineDoDev.Tests", "VitrineDoDev.Tests\VitrineDoDev.Tests.csproj", "{49BC77D5-0B25-44D3-8769-0A660A7A8142}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VitrineDoDev.Infra", "VitrineDoDev.Infra\VitrineDoDev.Infra.csproj", "{E2C63E96-8147-4335-9BB2-CF3BFF02CB55}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VitrineDoDev.Infra", "VitrineDoDev.Infra\VitrineDoDev.Infra.csproj", "{E2C63E96-8147-4335-9BB2-CF3BFF02CB55}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VitrineDoDev.Shared", "VitrineDoDev.Shared\VitrineDoDev.Shared.csproj", "{A9F43F7A-2B21-426E-9D42-EA93588CB9B6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VitrineDoDev.Shared", "VitrineDoDev.Shared\VitrineDoDev.Shared.csproj", "{A9F43F7A-2B21-426E-9D42-EA93588CB9B6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,9 +21,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 		Release|x64 = Release|x64
 		Release|x86 = Release|x86
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{C72A2019-529D-435C-A126-89E50B597F9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -86,5 +83,11 @@ Global
 		{A9F43F7A-2B21-426E-9D42-EA93588CB9B6}.Release|x64.Build.0 = Release|Any CPU
 		{A9F43F7A-2B21-426E-9D42-EA93588CB9B6}.Release|x86.ActiveCfg = Release|Any CPU
 		{A9F43F7A-2B21-426E-9D42-EA93588CB9B6}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {86E0A501-345D-415E-872F-1987128D965B}
 	EndGlobalSection
 EndGlobal
